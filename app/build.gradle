@@ -1,7 +1,7 @@
 apply plugin: 'com.android.application'
 
 android {
-    ndkVersion "27.0.12077973"
+    ndkVersion "26.1.10909125"
 
     compileSdk 34
 
@@ -10,6 +10,11 @@ android {
     defaultConfig {
         minSdk 21
         targetSdk 34
+
+        // Quest 3 runs on arm64. Restricting ABI improves compatibility and package size.
+        ndk {
+            abiFilters "arm64-v8a"
+        }
 
         versionName "12.1"
         versionCode = 314
