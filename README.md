@@ -1,3 +1,17 @@
+# Moonlight Android (Quest 3 Fix)
+
+This repository is a fork of the original Moonlight Android project, with a fix applied for a launch crash on Meta Quest 3 devices.
+
+## 🔧 Changes
+
+- Fixed application crash on launch when running on Quest 3
+- No other modifications to core functionality
+
+## 📦 Original Project
+
+This work is based on the official Moonlight Android project:  
+👉 https://github.com/moonlight-stream/moonlight-android
+
 # Moonlight Android
 
 [![AppVeyor Build Status](https://ci.appveyor.com/api/projects/status/232a8tadrrn8jv0k/branch/master?svg=true)](https://ci.appveyor.com/project/cgutman/moonlight-android/branch/master)
